@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+bm25s
+PyStemmer
+tqdm
+
+# Local repo dependency for easysteer (imported by inv_test.py)
+-e ../EasySteer
+
+# Optional: needed only for --retriever-type qwen3-embed
+vllm
+sentence-transformers
+peft
